@@ -1,0 +1,18 @@
+#header {
+    display: grid;
+    grid-template-columns: 2fr 1fr; 
+    grid-template-rows: 20vh;
+}
+/* 
+Grid cheatsheet: https://grid.malven.co/
+View source to see grid: https://www.mozilla.org/en-US/firefox/developer/ 
+*/
+
+.header-text {
+    align-self: center;
+}
+
+.header-logo {
+    max-height: 20vh;
+    object-fit: contain;
+}
